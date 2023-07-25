@@ -1,0 +1,51 @@
+body{
+    background-image: url(img/book.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+    align-items: center;
+}
+div.nav{
+    background-color: rgb(187, 65, 65,0.5);
+    border-radius: 25px;
+    height: 30px;
+    padding-top: 15px;
+    padding-left: 30px;  
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    padding: 5px; 
+}
+a:hover{
+    color: black;
+    font-size: 20px;
+    background-color: aliceblue;
+}
+img{
+    width: 100px;
+    height: 150px;
+}
+div.body{
+    background-color: rgb(93, 27, 27,0.5);
+    border-radius: 25px;
+    padding-top: 10px;
+    margin-top: 50px;
+    margin-left: 400px;
+    width: 650px;
+    height: 1100px;
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img:hover{
+    width: 200px;
+    height: 250px;
+}
+p{
+    margin-left: 30px;
+    text-align: center;
+    width: 600px;
+}
